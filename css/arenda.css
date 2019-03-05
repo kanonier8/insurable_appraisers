@@ -1,0 +1,1048 @@
+button:disabled,
+select:disabled,
+optgroup:disabled,
+option:disabled,
+select[disabled] > option {
+  color: graytext;
+}
+option {
+  font-weight: normal;
+  display: block;
+  white-space: pre;
+  min-height: 1.2em;
+  padding: 0px 2px 1px;
+}
+p {
+  font-size: 1.1rem;
+}
+#slogan .slogan-block img {
+  margin: 0 20px;
+  max-height: 20px;
+  opacity: 0.6;
+}
+#main h1 {
+  padding: 0;
+  margin-bottom: 0;
+  padding-top: 60px;
+  font-size: 3.2rem;
+}
+#main h1 .wOne {
+  transform: rotate(-8deg);
+  margin-bottom: 25px;
+  font-size: 4.5rem;
+  display: inline-block;
+  background-color: #c31c2a;
+  padding: 10px 30px;
+  line-height: 100%;
+  text-shadow: none;
+  text-transform: capitalize;
+}
+#main h1 .wTwo {
+  text-transform: capitalize;
+  font-size: 5.5rem;
+  display: inline-block;
+  font-family: intro-bold;
+}
+#main h1 .wThree {
+  text-transform: lowercase;
+  font-size: 4rem;
+  display: inline-block;
+  font-family: intro-Regular;
+  margin-top: -5px;
+  padding-top: 0;
+}
+#main .title {
+  margin-top: 40px;
+  color: #fff;
+  font-size: 1.7rem;
+  text-transform: lowercase;
+  font-family: 'Intro-book';
+  text-align: center;
+}
+#main ul {
+  list-style: none;
+  padding: 0;
+  color: #fff;
+  font-size: 1.3rem;
+  font-family: 'Intro-Book';
+  margin-right: 350px;
+  margin-top: 20px;
+  text-shadow: 2px 2px 5px #464646;
+}
+#main ul li {
+  padding-left: 1.3em;
+}
+#main ul li:before {
+  content: "\f046";
+  /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em;
+  /* same as padding-left set on li */
+  width: 1.3em;
+  /* same as padding-left set on li */
+}
+.service {
+  background-color: #fff;
+}
+.service h2 {
+  margin-top: 0;
+}
+.dashed-line {
+  margin: 40px 15%;
+  border-bottom: 1px solid #e4edf1;
+}
+h2 {
+  padding: 0;
+  margin-bottom: 35px;
+  font-family: 'Intro-Regular';
+}
+#what-can,
+.service,
+#how-much,
+#for-what,
+#we-trust,
+#how-contract,
+#pay-method,
+#faq {
+  padding: 60px 0 60px;
+}
+.what-can {
+  background-color: #f6f9fa;
+}
+.what-can .item-container {
+  position: relative;
+  background-color: #fff;
+  border: 2px solid #e6eef2;
+  border-radius: 10px;
+}
+.what-can .item-container h4 {
+  color: #fff;
+  background-color: #2BAF63;
+  border-radius: 5px 5px 0 0;
+  margin-bottom: 0px;
+  padding: 15px 5px 10px;
+  border-bottom: 1px solid #e7eef2;
+}
+.what-can .item-container:first-child {
+  width: 40%;
+}
+.what-can .item-container:last-child {
+  width: 59%;
+}
+.what-can .item-container .item {
+  padding: 15px 15px 55px;
+}
+.what-can .item-container .item em {
+  position: absolute;
+  bottom: 10px;
+}
+.what-can .item-container .item__left {
+  width: 50%;
+  float: left;
+}
+.what-can .item-container .item__left ul {
+  padding-left: 20px;
+  padding-right: 5px;
+}
+.what-can .item-container .item__left em {
+  width: 45%;
+}
+.what-can .item-container .item__right {
+  width: 50%;
+  float: left;
+  border-left: 1px solid #e6eef2;
+  padding-left: 10px;
+}
+.what-can .item-container .item__right ul {
+  padding-left: 20px;
+  padding-right: 5px;
+}
+.what-can .item-container .item__right em {
+  width: 45%;
+}
+.what-can h4 {
+  text-transform: uppercase;
+  font-family: 'Intro-Regular';
+  font-size: 1.1rem;
+  text-align: center;
+}
+#contrast {
+  border: 1px solid #e6eef2;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+#contrast ul {
+  padding-bottom: 40px;
+  padding-right: 10px;
+  margin-top: 25px;
+  font-size: 16px;
+  list-style: none;
+  counter-reset: list;
+}
+#contrast ul li {
+  margin-bottom: 15px;
+}
+#contrast ul li:before {
+  counter-increment: list;
+  content: counter(list) "";
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 50% 50%;
+  font-size: 18px;
+  line-height: 26px;
+  height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #f8d7da;
+  margin-right: 10px;
+  width: 22px;
+}
+#contrast h4 {
+  padding: 15px;
+  text-align: center;
+  color: #fff;
+  background-color: #2BAF63;
+}
+#contrast .contrast-left {
+  float: right;
+  margin: 0 auto;
+  width: 70%;
+  padding: 0;
+  background-color: #fff;
+  border-right: 1px solid #e8eff3;
+}
+#contrast .contrast-left h4 {
+  color: #111;
+  background-color: #fff;
+  border-bottom: 1px solid #e8eff3;
+}
+#contrast .contrast-right {
+  padding: 0;
+  background-color: #fff;
+  color: #111;
+}
+#contrast .contrast-right li:before {
+  background-color: #2BAF63;
+}
+#contrast .btn {
+  width: 60%;
+  bottom: 15px;
+  left: 25%;
+  position: absolute;
+  cursor: pointer;
+}
+#why-we {
+  padding-top: 40px;
+}
+#why-we h3 {
+  margin-bottom: 20px;
+}
+#why-we .card {
+  margin: 2px 1px;
+  padding: 20px;
+  display: inline-block;
+  box-shadow: 0px 1px 4px #aac1c7;
+  background-color: #f9fbfb;
+  border-radius: 6px;
+}
+#why-we .card img {
+  max-height: 25px;
+}
+#why-we #contract-block {
+  margin-top: 60px;
+}
+#why-we #contract-block h3 {
+  text-align: center;
+}
+#why-we #contract-block .owl-dots {
+  margin-top: 0;
+}
+#why-we .banks-partners h3 {
+  text-align: left;
+  margin-top: 40px;
+}
+#why-we .banks-partners .logo-container {
+  margin-top: 35px;
+}
+#why-we .banks-partners .logo-container .card {
+  min-width: 25%;
+  text-align: center;
+  margin: 2px 0;
+  padding: 10px;
+}
+#why-we .banks-partners .logo-container .card img {
+  max-height: 15px;
+}
+#why-we .we-do img {
+  margin-bottom: 15px;
+  margin-top: 30px;
+  height: 120px;
+  width: auto;
+}
+#why-we .we-do h4 {
+  text-transform: uppercase;
+  font-family: 'Intro-Regular';
+  font-size: 19px;
+  margin-bottom: 0;
+}
+#how-much .equation {
+  min-height: 60px;
+  margin-top: 30px;
+  text-align: center;
+}
+#how-much .equation span {
+  padding: 20px;
+  border: 2px solid #2BAF63;
+}
+#how-much h3 {
+  text-align: center;
+  margin: 30px 0;
+}
+#how-much img {
+  height: 80px;
+  margin-bottom: 15px;
+}
+#how-much h4.title {
+  text-transform: uppercase;
+  font-family: 'Intro-Regular';
+  font-size: 1.1rem;
+  margin-bottom: 0;
+}
+#how-much .text {
+  line-height: 15px;
+  margin-top: 5px;
+  font-size: 0.9rem;
+  color: #868e96!important;
+}
+#how-much .text span {
+  font-size: 0.8rem;
+}
+#for-what h4 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+#for-what .item {
+  width: 20%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+#for-what .item img {
+  margin-bottom: 15px;
+  height: 80px;
+  width: auto;
+}
+#for-what .item h4 {
+  text-transform: uppercase;
+  font-family: 'Intro-Regular';
+  font-size: 1.1rem;
+  margin: 0;
+}
+#for-what .item .text {
+  line-height: 15px;
+  margin-top: 5px;
+  font-size: 0.9rem;
+  color: #868e96;
+}
+#we-trust {
+  background-color: #f6f9fa;
+}
+#we-trust .clients {
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+#we-trust .clients .card {
+  text-align: center;
+  width: 30%;
+  margin: 5px 1px;
+  padding: 15px;
+  display: inline-block;
+  box-shadow: 0px 1px 4px #aac1c7;
+  background-color: #f9fbfb;
+  border-radius: 6px;
+}
+#we-trust .clients .card img {
+  max-height: 25px;
+}
+#how-contract {
+  background-color: #f6f9fa;
+}
+#how-contract .line {
+  width: 58%;
+  margin: 0 auto;
+  height: 4px;
+  background: #2BAF63;
+  position: relative;
+  top: 60px;
+}
+#how-contract .circle {
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-color: #fff;
+  width: 120px;
+  height: 120px;
+  border: 4px solid #2BAF63;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.3);
+}
+#how-contract .circle span {
+  text-align: center;
+  font-size: 60px;
+  line-height: 120px;
+  font-family: 'Intro-Regular';
+  color: #111;
+}
+#how-contract .item-text {
+  text-align: center;
+  margin-top: 20px;
+  color: #444;
+}
+#how-contract .item-text .link {
+  border-bottom: 1px dashed;
+  cursor: pointer;
+}
+#pay-method {
+  text-align: center;
+}
+#pay-method img {
+  width: 60px;
+  margin-bottom: 15px;
+}
+#pay-method .title {
+  text-transform: uppercase;
+  font-family: 'Intro-Regular';
+  font-size: 1.1rem;
+  margin-bottom: 0;
+}
+#pay-method .text {
+  line-height: 15px;
+  margin-top: 5px;
+  font-size: 0.9rem;
+  color: #868e96;
+}
+#faq {
+  background: #f6f9fa;
+}
+#faq .question-block {
+  background-color: #F9F9F9;
+  border-bottom: 1px solid #e2e2e2;
+}
+#faq .question-block .quest {
+  background-color: #f2f2f2;
+  padding: 27px 70px 22px 88px;
+  cursor: pointer;
+}
+#faq .question-block .quest span {
+  color: #0281af;
+  font-family: 'Intro-Regular';
+  font-size: 18px;
+}
+#faq .question-block .answer {
+  padding: 15px 60px 15px 88px;
+  background: #F9F9F9;
+  font-size: 16px;
+  line-height: 27px;
+}
+.owl-item a:hover {
+  text-decoration: underline;
+}
+.owl-item a p {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 40px;
+  line-height: 16px;
+  text-indent: 0px;
+}
+.owl-item a p span {
+  vertical-align: baseline;
+  text-align: center;
+  font-family: 'Intro-Book';
+  font-size: 12px;
+  line-height: 24px;
+  color: #363636;
+}
+.radioContainer {
+  margin-top: -2px;
+}
+.radioContainer input[type="radio"] {
+  display: none;
+}
+.radioContainer label {
+  margin-top: 0 !important;
+  position: relative;
+  float: left;
+}
+.radioContainer .female::after {
+  content: '\f182';
+  font-size: 28px;
+  font-family: 'FontAwesome';
+  transition: color .2s;
+  padding: 4px 23px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+}
+.radioContainer .male::after {
+  content: '\f183';
+  font-size: 28px;
+  font-family: 'FontAwesome';
+  transition: color .2s;
+  padding: 4px 23px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+}
+.radioContainer span.radio:hover {
+  cursor: pointer;
+}
+input[type="radio"]:checked + label span.radio::after {
+  color: #2BAF63;
+  border: 1px solid #2BAF63;
+  padding: 4px 23px;
+}
+#calculator {
+  background-color: #f6f9fa;
+  padding: 70px 0 70px;
+  width: 100%;
+}
+#calculator .calc {
+  box-shadow: 0 3px 18px rgba(0, 0, 0, 0.29);
+  max-width: 90%;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  margin: 0 auto;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  padding: 26px 33px;
+}
+#calculator .calc h2 {
+  margin-bottom: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+#calculator .calc .titleOne {
+  margin-top: 10px;
+}
+#calculator .calc .titleOne:before {
+  content: "I. ";
+}
+#calculator .calc .titleTwo {
+  margin-top: 10px;
+}
+#calculator .calc .titleTwo:before {
+  content: "II. ";
+}
+#calculator .calc label {
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+#calculator .calc .text-muted {
+  text-indent: 0;
+  text-align: center;
+  font-size: 0.7rem;
+  margin-bottom: 0;
+}
+#calculator .calc .select-block {
+  float: left;
+  width: 47%;
+}
+#calculator .calc .cost-title {
+  margin: 10px auto;
+  padding-top: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1rem;
+  border-top: 1px solid #efefef;
+}
+#calculator .calc .card {
+  margin: 20px 0;
+}
+#calculator .calc .card h3 {
+  cursor: pointer;
+}
+#calculator .calc .card .card-header h3::after {
+  font-family: 'FontAwesome';
+  content: "\f068";
+  font-style: normal;
+  float: right;
+  font-size: 0.7em;
+  line-height: 1.5em;
+}
+#calculator .calc .card .card-header.collapsed h3::after {
+  content: "\f067";
+}
+#calculator .calc .total-riskOne {
+  margin-top: 20px;
+  padding: 10px 20px 0;
+  border-top: 1px dashed;
+  font-size: 1.1rem;
+}
+#calculator .calc .total-riskOne .price {
+  color: #2BAF63;
+  font-size: 1.2rem;
+}
+#calculator .calc .calc__block {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#calculator .calc .calc__block .total__block {
+  width: 32%;
+}
+#calculator .calc .calc__block .risk {
+  position: relative;
+  text-indent: 0px;
+  padding: 15px;
+  box-shadow: 0px 1px 4px #ababab;
+  background-color: #fff;
+  border-radius: 6px;
+  text-align: center;
+  width: 32%;
+  font-size: 0.9rem;
+  margin: 10px 0;
+  border: 1px solid transparent;
+}
+#calculator .calc .calc__block .risk .close {
+  top: 5px;
+  position: absolute;
+  right: 10px;
+  float: right;
+}
+#calculator .calc .calc__block .risk .add__risk {
+  border: 2px dashed #13ac58;
+  height: 100%;
+  padding: 8%;
+}
+#calculator .calc .calc__block .risk label {
+  margin-top: 7px;
+  float: left;
+}
+#calculator .calc .calc__block .risk .price {
+  color: #2BAF63;
+}
+#calculator .calc .total-riskTwo {
+  margin-top: 20px;
+  padding: 10px 20px 0;
+  border-top: 1px dashed;
+  font-size: 1.1rem;
+}
+#calculator .calc .total-riskTwo .price {
+  color: #2BAF63;
+  font-size: 1.2rem;
+}
+#calculator .calc .calc-total {
+  height: 125px;
+  width: 100%;
+  background: url(../img/total_bg.png) no-repeat center;
+  background-size: contain;
+  margin-top: 10px;
+  padding-top: 40px;
+  font-size: 26px;
+  text-align: center;
+}
+#calculator .calc .calc-total .price {
+  color: #2BAF63;
+}
+#calculator .calc .btn {
+  width: 46%;
+  margin-top: 30px;
+}
+@media screen and (max-width: 1220px) {
+  #main h1 {
+    font-size: 2.6rem;
+  }
+  #main .title {
+    font-size: 1.5rem;
+  }
+  #main ul {
+    margin-right: 420px;
+    margin-left: -3%;
+  }
+  #slogan .slogan-block img {
+    margin: 0 15px;
+    max-height: 17px;
+  }
+  #why-we .card {
+    margin: 2px 1px;
+    padding: 15px;
+    display: inline-block;
+    box-shadow: 0px 1px 4px #aac1c7;
+    background-color: #f9fbfb;
+    border-radius: 6px;
+  }
+  #why-we .card img {
+    max-height: 22px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  #slogan .slogan-block img {
+    margin: 0 10px;
+    max-height: 15px;
+  }
+  #calculator .calc {
+    padding: 26px 30px;
+  }
+  #calculator .calc .text-muted {
+    font-size: 0.7rem;
+  }
+  #calculator .calc .gender-radio {
+    float: right;
+    width: 42%;
+  }
+  #why-we .banks-partners .card img {
+    max-height: 12px;
+  }
+  #why-we .card {
+    margin: 2px 1px;
+    padding: 10px;
+    display: inline-block;
+    box-shadow: 0px 1px 4px #aac1c7;
+    background-color: #f9fbfb;
+    border-radius: 6px;
+  }
+  #why-we .card img {
+    max-height: 20px;
+  }
+}
+@media screen and (max-width: 991px) {
+  #main h1 {
+    font-size: 2.5rem;
+  }
+  #main .title {
+    font-size: 1.4rem;
+  }
+  #main ul {
+    margin-right: 370px;
+  }
+  #calculator .calc .credit-sum {
+    float: left;
+    width: 48%;
+  }
+  #calculator .calc .select-block {
+    width: 30%;
+  }
+  #calculator .calc .calc__block {
+    flex-wrap: wrap;
+  }
+  #calculator .calc .calc__block .risk {
+    width: 45%;
+  }
+  #calculator .calc .calc__block .total__block {
+    margin: 0 auto;
+    width: 45%;
+  }
+  #we-trust .clients .card {
+    width: 32%;
+    padding: 15px 0px;
+  }
+  #we-trust .clients .card img {
+    max-height: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .modal-open {
+    position: fixed;
+  }
+  h2 {
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+  }
+  h4 {
+    font-size: 1rem !important;
+  }
+  html {
+    font-size: 14px;
+  }
+  #slogan .slogan-block img {
+    margin: 0 5px;
+    max-height: 8px;
+  }
+  #main h1 {
+    margin: 0 auto;
+    padding: 50px 0 0;
+  }
+  #main .title {
+    margin: 0 0 50px;
+  }
+  #main ul {
+    margin: 0 0 20px;
+  }
+  #calculator .calc {
+    position: static;
+    max-width: 90%;
+    padding: 26px 30px;
+  }
+  #calculator .calc .text-muted {
+    font-size: 0.7rem;
+  }
+  #calculator .calc .credit-sum {
+    float: left;
+    width: 27%;
+    margin-right: 2%;
+  }
+  #calculator .calc .select-block {
+    width: 42%;
+  }
+  #calculator .calc .gender-radio {
+    float: right;
+    width: 42%;
+  }
+  #calculator .calc .cost-title {
+    margin: 10px auto;
+    padding-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+    border-top: 1px solid #efefef;
+  }
+  #calculator .calc .calc__block {
+    display: flex;
+    justify-content: space-between;
+  }
+  #calculator .calc .calc__block .total__block {
+    width: 45%;
+  }
+  #calculator .calc .calc__block .risk {
+    border: 1px solid transparent;
+  }
+  #calculator .calc .calc__block .risk .price {
+    color: #2BAF63;
+  }
+  #calculator .calc .calc__block .risk.active {
+    border-color: #2BAF63;
+  }
+  #calculator .calc .calc-total {
+    height: 120px;
+    padding-top: 32px;
+    font-size: 2.5rem;
+  }
+  #calculator .calc .btn {
+    width: 100%;
+    margin: 10px auto;
+    font-size: 1.3rem;
+    float: unset !important;
+  }
+  .radioContainer .female::after {
+    font-size: 28px;
+    padding: 2px 40px;
+  }
+  .radioContainer .male::after {
+    font-size: 28px;
+    padding: 2px 40px;
+  }
+  input[type="radio"]:checked + label span.radio::after {
+    padding: 2px 40px;
+  }
+  input,
+  select {
+    height: 37px !important;
+    margin-bottom: 3px;
+    border-radius: 6px !important;
+  }
+  .what-can .item-container {
+    margin: 20px 0;
+    position: relative;
+  }
+  .what-can .item-container:first-child {
+    width: 100%;
+  }
+  .what-can .item-container:last-child {
+    width: 100%;
+  }
+  .what-can .item-container .item {
+    padding: 15px;
+  }
+  .what-can .item-container .item em {
+    position: static;
+  }
+  .what-can .item-container .item__left {
+    width: 47%;
+    float: left;
+  }
+  .what-can .item-container .item__left em {
+    position: absolute;
+    bottom: 10px;
+    width: 45%;
+  }
+  .what-can .item-container .item__right {
+    width: 49% !important;
+    padding-left: 5px;
+    padding-bottom: 50px;
+  }
+  .what-can .item-container .item__right em {
+    position: absolute;
+    bottom: 10px;
+    width: 45%;
+  }
+  #why-we {
+    padding-bottom: 20px;
+  }
+  #why-we .banks-partners .logo-container {
+    margin-top: 0;
+  }
+  #why-we .banks-partners .logo-container .card {
+    min-width: 30%;
+  }
+  #why-we .card {
+    min-width: 30%;
+    text-align: center;
+  }
+  #why-we .card img {
+    max-height: 15px;
+  }
+  #why-we #contrast .btn {
+    left: 10%;
+    width: 80%;
+  }
+  #we-trust {
+    background-color: #f6f9fa;
+  }
+  #we-trust .clients {
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  #we-trust .clients .card {
+    text-align: center;
+    width: 32%;
+    margin: 5px 1px;
+    padding: 10px;
+    display: inline-block;
+    box-shadow: 0px 1px 4px #aac1c7;
+    background-color: #f9fbfb;
+    border-radius: 6px;
+  }
+  #we-trust .clients .card img {
+    max-height: 15px;
+  }
+  #how-contract .line {
+    background: none;
+  }
+  #for-what .item {
+    width: 33%;
+  }
+  #how-much .item {
+    margin-bottom: 15px;
+  }
+  .dashed-line {
+    margin: 20px 15%;
+  }
+  #faq {
+    background: #f6f9fa;
+  }
+  #faq .question-block {
+    background-color: #F9F9F9;
+    border-bottom: 1px solid #e2e2e2;
+  }
+  #faq .question-block .quest {
+    background-color: #f2f2f2;
+    padding: 15px;
+    cursor: pointer;
+  }
+  #faq .question-block .quest span {
+    color: #0281af;
+    font-family: 'Intro-Regular';
+    font-size: 18px;
+  }
+  #faq .question-block .answer {
+    padding: 15px;
+    background: #F9F9F9;
+    font-size: 16px;
+    line-height: 27px;
+  }
+}
+@media screen and (max-width: 599px) {
+  #main h1 {
+    font-size: 2.2rem;
+  }
+  #main h1 .wOne {
+    font-size: 3rem;
+  }
+  #main h1 .wTwo {
+    font-size: 4rem;
+  }
+  #main h1 .wThree {
+    font-size: 3rem;
+  }
+  #main .title {
+    font-size: 1.1rem;
+  }
+  #calculator .calc {
+    max-width: 100%;
+    padding: 25px 12px;
+  }
+  #calculator .calc .credit-sum {
+    float: left;
+    width: 44%;
+  }
+  #calculator .calc .select-block {
+    width: 80%;
+  }
+  #calculator .calc .gender-radio {
+    float: left;
+    width: 100%;
+  }
+  #calculator .calc .calc__block {
+    flex-direction: column;
+    align-items: center;
+  }
+  #calculator .calc .calc__block .risk {
+    margin: 10px 0;
+    padding: 5px;
+    font-size: 1.2rem;
+    width: 90%;
+  }
+  .what-can .item-container {
+    margin: 20px 0;
+    position: relative;
+  }
+  .what-can .item-container:first-child {
+    width: 100%;
+  }
+  .what-can .item-container:last-child {
+    width: 100%;
+  }
+  .what-can .item-container .item {
+    padding: 15px;
+  }
+  .what-can .item-container .item em {
+    position: static;
+    width: 100%;
+  }
+  .what-can .item-container .item__left {
+    width: 100%;
+    float: left;
+  }
+  .what-can .item-container .item__right {
+    width: 100% !important;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    border-left: none;
+    border-top: 1px solid #e7eef2;
+  }
+  #why-we .banks-partners .logo-container .card {
+    min-width: 49%;
+  }
+  #we-trust .clients .card {
+    width: 45%;
+    padding: 15px 0px;
+  }
+  #we-trust .clients .card img {
+    max-height: 15px;
+  }
+  #we-trust .clients .card:last-child {
+    display: none;
+  }
+  #for-what .item {
+    width: 50%;
+  }
+}
