@@ -1,0 +1,213 @@
+/* generl style */
+/* var */
+/* var */
+.btn:focus {
+  box-shadow: none;
+}
+.btn-success {
+  color: #fff;
+  background-color: #2BAF63;
+  border-color: #2BAF63;
+}
+.btn-success:hover {
+  background-color: #2BAF63;
+  border-color: #279e59;
+  cursor: pointer;
+  opacity: 0.9;
+}
+.btn-outline-success {
+  color: #2BAF63;
+  border-color: #2BAF63;
+}
+.btn-outline-success:hover {
+  cursor: pointer;
+  background-color: #2BAF63;
+  border-color: #2BAF63;
+}
+/* generl style */
+p {
+  text-indent: 10px;
+}
+.owl-item a:hover {
+  text-decoration: underline;
+}
+.owl-item a p {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 40px;
+  line-height: 16px;
+  text-indent: 0px;
+}
+.owl-item a p span {
+  vertical-align: baseline;
+  text-align: center;
+  font-family: 'Intro-Book';
+  font-size: 12px;
+  line-height: 24px;
+  color: #363636;
+}
+.comment-carousel .caro-prev {
+  color: #888;
+  position: absolute;
+  left: 10px;
+  top: 50px;
+}
+.comment-carousel .caro-next {
+  color: #888;
+  position: absolute;
+  right: 10px;
+  top: 50px;
+}
+.comment-carousel .comment-cont {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.comment-carousel .comment-cont .comment-img {
+  border-radius: 150px;
+  height: 150px;
+  width: 150px;
+  margin-bottom: 10px;
+}
+.comment-carousel .comment-cont .left {
+  float: left;
+  margin-right: 20px;
+  text-align: center;
+}
+.comment-carousel .comment-cont .left .sIcon-block {
+  text-align: center;
+}
+.comment-carousel .comment-cont .left .sIcon {
+  display: inline-block;
+  margin: 5px;
+  width: 24px;
+  height: 24px;
+}
+.comment-carousel .comment-cont .left a {
+  margin-top: 10px;
+}
+.comment-carousel .comment-cont p {
+  padding-top: 10px;
+  text-indent: 0px;
+  margin-bottom: 7px;
+}
+.comment-carousel .comment-cont p:before {
+  content: "\f10d";
+  font-family: 'Fontawesome';
+  float: left;
+  margin-right: 10px;
+}
+.comment-carousel .comment-cont p:after {
+  content: "\f10e";
+  font-family: 'Fontawesome';
+  margin-left: 10px;
+}
+.comment-carousel .comment-cont small {
+  color: #696767;
+}
+#contacts {
+  padding: 70px 0 0;
+}
+#contacts .select-container {
+  background-color: #11b15c;
+}
+#contacts .select-container .city-item {
+  min-width: 50%;
+  text-align: center;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+#contacts .select-container .city-item span.active,
+#contacts .select-container .city-item span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+#contacts .select-container .city-item:first-child {
+  float: left;
+}
+#contacts .map-container .map {
+  position: relative;
+  height: 0px;
+  overflow: hidden;
+}
+#contacts .map-container .map.active {
+  height: 400px;
+}
+#contacts .map-container .metroPolyanka {
+  color: #ACADAF;
+}
+#contacts .map-container .metroMsc {
+  color: #FBAA33;
+}
+#contacts .map-container .metroSpb {
+  color: #197DCE;
+}
+#contacts .map-container #moscow_map,
+#contacts .map-container #spb_map {
+  height: 400px;
+  width: 100%;
+}
+#contacts .map-container .place {
+  width: 335px;
+  margin-top: 20px;
+  position: absolute;
+  right: 40px;
+  top: 10px;
+  background-color: white;
+}
+#contacts .map-container .place address {
+  margin-bottom: 0;
+}
+#contacts .map-container .place h5 {
+  margin-top: 20px;
+}
+#contacts .map-container .place .address-line {
+  display: table;
+  border-bottom: 1px solid #d0d0d0;
+  padding: 5px 20px;
+}
+#contacts .map-container .place .address-line:last-child {
+  border: none;
+}
+#contacts .map-container .place .address-line .icon {
+  float: left;
+  width: 0%;
+  border-right: 1px solid #cbcbcb;
+  padding-right: 40px;
+  font-size: 24px;
+  line-height: 42px;
+}
+#contacts .map-container .place .address-line .desc {
+  display: table-cell;
+  width: 100%;
+  vertical-align: middle;
+}
+@media screen and (max-width: 767px) {
+  #contacts .map-container .map.active {
+    height: 745px;
+  }
+  #contacts .map-container .map .place {
+    position: static;
+    width: 90%;
+    margin: 30px auto 0;
+    border: 1px solid #d5d5d5;
+  }
+  .comment-carousel .comment-cont {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .comment-carousel .comment-cont .comment-img {
+    height: 130px;
+    width: 130px;
+    margin: 0 auto;
+  }
+  .comment-carousel .comment-cont .left {
+    float: none;
+    margin-right: 0;
+    text-align: center;
+  }
+  .comment-carousel .comment-cont p {
+    font-size: 1.1rem;
+  }
+}
